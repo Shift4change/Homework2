@@ -14,18 +14,40 @@
     font-size: 22px;
     margin-left: 10px;
     
-}.navbar>.container-fluid .navbar-brand {
+}
+.navbar>.container-fluid .navbar-brand {
     margin-left: 10px;
 
-    @media (min-width: 768px) and (max-width: 991px) {
-        .hidden-sm {
-          display: none !important;
-    @media (min-width: 768px)
-    @media (min-width: 768px)
-
-    .collapse {
-        overflow: visible;
-    }   
+}
+.navbar {
+    font-size: 18px;
+    margin-bottom: -6px;
+}
     .navbar .btn-navbar {
         display: none;
     }   
+    h1{
+        color: #42f5b9;
+    }
+    .thumbnail{
+        width: 250px;
+        height: 250px;
+
+    }
+    // Large desktop
+  @media (min-width: 1200px) { 
+     .caption .container{
+          width:450px
+      }
+   }
+    
+   // Portrait tablet to landscape and desktop
+    @media (min-width: 768px) and (max-width: 980px) { ... }
+
+    // Landscape phones and down
+    @media (max-width: 480px) { ... }
+  
+    // Landscape phone to portrait tablet
+    @media (max-width: 768px) { ... }
+  
+    
