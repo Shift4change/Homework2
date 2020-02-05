@@ -1,0 +1,31 @@
+.navbar-header{
+    background-color:#42f5b9;
+    width: 244px;
+
+}
+.box-green{
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+     text-align: center;
+    font-size: 22px;
+    margin-left: 10px;
+    
+}.navbar>.container-fluid .navbar-brand {
+    margin-left: 10px;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .hidden-sm {
+          display: none !important;
+    @media (min-width: 768px)
+    @media (min-width: 768px)
+
+    .collapse {
+        overflow: visible;
+    }   
+    .navbar .btn-navbar {
+        display: none;
+    }   
