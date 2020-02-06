@@ -1,53 +1,72 @@
-.navbar-header{
-    background-color:#42f5b9;
-    width: 244px;
+navbar-header
 
-}
-.box-green{
-    text-align: center;
+text-align: center;
+     
     font-size: 22px;
-    margin-left: 10px;
-}
-
-.navbar-brand {
-     text-align: center;
-    font-size: 22px;
-    margin-left: 10px;
+    margin-: 10px;
     
 }
-.navbar>.container-fluid .navbar-brand {
+.navbar.container-fluid  {
     margin-left: 10px;
 
 }
+.navbar-brand{
+    margin-left: 0 auto;
+    text-align: center;
+}
+
 .navbar {
     font-size: 18px;
     margin-bottom: -6px;
+
 }
     .navbar .btn-navbar {
         display: none;
     }   
     h1{
-        color: #42f5b9;
+        color: #9345ad;
+        font-size: 40px;
     }
+    /* //help! */
     .thumbnail{
+        float: left;
         width: 250px;
-        height: 250px;
+        height: 280px;
 
     }
+    .caption{
+        clear: both;
+        margin-left:25px;
+    }
+    .navbar-container{
+        -ms-flex-direction: row;
+    }
+    nav .navbar-nav .navbar-right{
+        flex-direction: row;
+    }
+    
+    }
+
     // Large desktop
   @media (min-width: 1200px) { 
      .caption .container{
           width:450px
       }
-   }
-    
-   // Portrait tablet to landscape and desktop
-    @media (min-width: 768px) and (max-width: 980px) { ... }
+      @media only screen and (max-width: 600px){
+          .navbar-header{
+              width:100%;
+          }
+        .nav .navbar-nav .navbar-right{
+            flex-direction:row;
+        
+        }
+        .caption{
+            width:450px;
+            margin-left:30px;
+        }
 
-    // Landscape phones and down
-    @media (max-width: 480px) { ... }
-  
-    // Landscape phone to portrait tablet
-    @media (max-width: 768px) { ... }
-  
-    
+
+      }
+          
+      }
+   }
