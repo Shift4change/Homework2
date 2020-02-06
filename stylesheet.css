@@ -5,69 +5,106 @@ body{
     background: url("./assets/backgroundabout.png")
     
     }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     
-}
-.navbar.container-fluid  {
-    margin-left: 10px;
-
-}
-.navbar-brand{
-    margin-left: 0 auto;
-    text-align: center;
-}
-
-.navbar {
-    font-size: 18px;
-    margin-bottom: -6px;
-
-}
-    .navbar .btn-navbar {
-        display: none;
-    }   
-    h1{
-        color: #9345ad;
-        font-size: 40px;
     }
-    /* //help! */
-    .thumbnail{
+    
+
+    
+    /* navigation bar */
+    li,a{
+        font-family: Georgia, 'Times New Roman', Times, serif
+        font
+        }
+       
+        
+            
+    }
+    header{
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        overflow: visible;
+        z-index: 1;
+    
+    }
+    header::after{
+        overflow: scroll;
+        content: '';
+        display: table;
+        clear: both;
+    
+        
+    }
+    nav{
+        float: right;
+        overflow: hidden;
+    
+    }
+    
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-left: 15px;
+        padding-top: 30px;
+        
+    }
+    nav ul li a {
+        color: #337ab7;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+    
+    }
+    
+    .navname{
         float: left;
         width: 250px;
-        height: 280px;
-
-    }
-    .caption{
-        clear: both;
-        margin-left:25px;
-    }
-    .navbar-container{
-        -ms-flex-direction: row;
-    }
-    nav .navbar-nav .navbar-right{
-        flex-direction: row;
+        height: 90px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 90px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background: #4aaaa5;
     }
     
+    /* body section */
+    
+    
+    .main-section{
+        float: left;
+        width: 100%;
+        max-width: 960px;
+        padding: 30px;
+        margin-top: 130px;
+        background: white;
+        margin-bottom: 130px;
+    
+    
     }
-
-    // Large desktop
-  @media (min-width: 1200px) { 
-     .caption .container{
-          width:450px
-      }
-      @media only screen and (max-width: 600px){
-          .navbar-header{
-              width:100%;
-          }
-        .nav .navbar-nav .navbar-right{
-            flex-direction:row;
-        
-        }
-        .caption{
-            width:450px;
-            margin-left:30px;
-        }
-
-
-      }
-          
-      }
-   }
+    .main-section h1{
+        margin-left: 26px;
+        color: #4aaaa5
+    
+    }
+    
+    
+    #main-container{
+        margin-top: 50px;
+    
+    
+    }
